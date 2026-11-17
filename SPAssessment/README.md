@@ -25,5 +25,11 @@ Notes :
 - `Status` : `OK`, `NotFound` ou `Error` (ex. accès refusé).
 - Le compte utilisé doit avoir au moins un accès en lecture à chaque site.
 
+## Utilisation de l'agent Copilot
+Le dépôt inclut l'agent `sp-assessment` (`.github/agents/sp-assessment.agent.md`).
+1. `git clone https://github.com/mhelheli/SPAssessment.git` puis ouvrir le dossier dans VS Code (GitHub Copilot Chat requis).
+2. Dans le chat Copilot, sélectionner l'agent `sp-assessment`.
+3. Demander par exemple : « Évalue ces sites : https://contoso.sharepoint.com/sites/A ». L'agent demande le `ClientId` si besoin, lance le module et résume le rapport.
+
 ## Partage
 Copier le dossier `SPAssessment` (zip) vers `$HOME\Documents\PowerShell\Modules\`, ou le publier dans une galerie PowerShell interne.
